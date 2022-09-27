@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+body ,html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    background-color: #e6dad1;
+    height: 100%;
+    font-weight: 700;
+}
+
+.box-header {
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-body {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    height: 480px;
+    width: 430px;
+    padding: 0 35px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.form-grup {
+    padding-bottom: 10px;
+    padding-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input[type="nama"],
+input[type="username"],
+input[type="password"],
+input[type="konfirmpass"],
+input[type="nomor"],
+input[type="alamat"] {
+    border-radius: 20px;
+    border: 2px solid rgb(213, 136, 147);
+}
